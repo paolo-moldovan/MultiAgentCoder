@@ -1,0 +1,21 @@
+multi_agent_coder/
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+├── agents/
+│   ├── __init__.py
+│   ├── researcher.py
+│   ├── coder.py
+│   └── reviewer.py
+├── models/
+│   ├── __init__.py
+│   └── llm_config.py
+├── tasks/
+│   ├── __init__.py
+│   └── task_definitions.py
+├── utils/
+│   ├── __init__.py
+│   ├── error_handler.py
+│   └── task_tracker.py
+├── requirements.txt
+└── main.py 

@@ -1,0 +1,6 @@
+torch
+crewai
+langchain-community
+unsloth
+ollama
+tiktoken
