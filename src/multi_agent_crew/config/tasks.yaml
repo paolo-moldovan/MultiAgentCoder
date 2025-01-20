@@ -1,0 +1,47 @@
+# src/latest_ai_development/config/tasks.yaml
+
+research_task:
+  description: "Research and analyze the requirements for {topic}"
+  expected_output: "Detailed research findings and recommendations"
+  agent: researcher
+
+reporting_task:
+  description: "Create a comprehensive report about {topic}"
+  expected_output: "Detailed technical report"
+  agent: reporting_analyst
+  output_file: report.md
+
+crew_management_task:
+  description: "Coordinate the team's efforts for {topic}"
+  expected_output: "Project coordination plan"
+  agent: crew_captain
+
+architecture_planning_task:
+  description: "Design the system architecture for {topic}"
+  expected_output: "System architecture design"
+  agent: system_architect
+
+frontend_implementation_task:
+  description: "Implement the frontend for {topic}"
+  expected_output: "Frontend implementation code"
+  agent: frontend_developer
+
+backend_development_task:
+  description: "Implement the backend for {topic}"
+  expected_output: "Backend implementation code"
+  agent: backend_developer
+
+devops_pipeline_task:
+  description: "Set up the infrastructure for {topic}"
+  expected_output: "Infrastructure setup code"
+  agent: devops_engineer
+
+quality_assurance_task:
+  description: "Test the implementation of {topic}"
+  expected_output: "Test results and recommendations"
+  agent: qa_specialist
+
+code_review_task:
+  description: "Review the code for {topic}"
+  expected_output: "Code review feedback"
+  agent: code_reviewer

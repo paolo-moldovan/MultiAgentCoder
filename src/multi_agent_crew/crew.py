@@ -3,9 +3,6 @@ from crewai.project import CrewBase, agent, crew, task
 
 @CrewBase
 class MultiAgentCrew():
-    """MultiAgentCrew - A multi-agent system for collaborative development"""
-
-    # Points to YAML config for agents and tasks
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 

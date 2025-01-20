@@ -18,13 +18,6 @@ class CodeAnalysisTool(BaseTool):
     args_schema: Type[BaseModel] = CodeAnalysisToolInput
 
     def _run(self, code_snippet: str, analysis_type: str = "complexity") -> str:
-        # Here you would integrate your analysis logic or call out to external tools.
-        # For example, you might run:
-        #   * Complexity metrics (e.g., cyclomatic complexity)
-        #   * Linting checks
-        #   * Security scanning
-        #
-        # Stub logic:
         return (
             f"Analysis Type: {analysis_type}\n"
             f"Snippet: {code_snippet[:60]}...\n"

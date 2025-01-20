@@ -17,16 +17,5 @@ class RunTestsTool(BaseTool):
     args_schema: Type[BaseModel] = RunTestsToolInput
 
     def _run(self, test_command: str) -> str:
-        """
-        In a real scenario, you'd run the command (e.g., via subprocess)
-        and capture the output. Below is a stubbed version.
-        """
-        # Example:
-        # import subprocess
-        # process = subprocess.Popen(test_command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        # output, errors = process.communicate()
-        # return output.decode("utf-8") if output else errors.decode("utf-8")
-
-        # Stubbed logic for demonstration:
         return f"Executed test command '{test_command}'.\n" \
                "Tests Passed: 10\nTests Failed: 2\n"

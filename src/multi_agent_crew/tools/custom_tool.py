@@ -4,7 +4,6 @@ from pydantic import BaseModel, Field
 
 
 class MyCustomToolInput(BaseModel):
-    """Input schema for MyCustomTool."""
     argument: str = Field(..., description="Description of the argument.")
 
 class MyCustomTool(BaseTool):
@@ -15,5 +14,4 @@ class MyCustomTool(BaseTool):
     args_schema: Type[BaseModel] = MyCustomToolInput
 
     def _run(self, argument: str) -> str:
-        # Implementation goes here
         return "this is an example of a tool output, ignore it and move along."
